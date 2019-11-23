@@ -14,21 +14,21 @@
          <div>
             <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                     <v-img :src="require('@/assets/facebook-logo.svg')" width="22" height="22"
+                     <v-img :src="require('@/assets/facebook.svg')" width="22" height="22"
                     class="float-left margin-right" v-on="on"></v-img>
                 </template>
                 <span>Tooltip</span>
             </v-tooltip>
             <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                     <v-img :src="require('@/assets/instagram (1).svg')" width="22" height="22"
+                     <v-img :src="require('@/assets/instagram.svg')" width="22" height="22"
                      class="float-left margin-right"  v-on="on" ></v-img>
                 </template>
                 <span>Tooltip</span>
             </v-tooltip>
             <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                     <v-img :src="require('@/assets/linkedin (1).svg')" width="22" height="22"
+                     <v-img :src="require('@/assets/linkedin.svg')" width="22" height="22"
                      class="float-left" v-on="on"></v-img>
                 </template>
                 <span>Tooltip</span>

@@ -20,7 +20,7 @@
                 color="white"
               >
                 <v-img
-                  :src="require('@/assets/default.jpg')"
+                  :src="require('@/assets/default-profile.jpg')"
                   height="55"
                   width="55"
                   class="circle line-spacing"

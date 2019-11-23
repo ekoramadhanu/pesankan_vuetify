@@ -10,7 +10,7 @@
     >
       <v-col cols="12" xl="3" lg="3" sm="12" md="3" xs="12">
           <v-img
-            :src="require('@/assets/logo-pesankan.png')"
+            :src="require('@/assets/logo.png')"
             height="35"
             width="148"
             class=""
@@ -18,21 +18,21 @@
           <h4>Sebuah Aplikasi yang memudahkan aktivitas Ibu rumah tangga </h4>
           <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                     <v-img :src="require('@/assets/facebook-logo.svg')" width="22" height="22"
+                     <v-img :src="require('@/assets/facebook.svg')" width="22" height="22"
                     class="float-left margin-right" v-on="on"></v-img>
                 </template>
                 <span>Tooltip</span>
             </v-tooltip>
             <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                     <v-img :src="require('@/assets/instagram (1).svg')" width="22" height="22"
+                     <v-img :src="require('@/assets/instagram.svg')" width="22" height="22"
                      class="float-left margin-right"  v-on="on" ></v-img>
                 </template>
                 <span>Tooltip</span>
             </v-tooltip>
             <v-tooltip bottom>
                 <template v-slot:activator="{ on }">
-                     <v-img :src="require('@/assets/linkedin (1).svg')" width="22" height="22"
+                     <v-img :src="require('@/assets/linkedin.svg')" width="22" height="22"
                      class="float-left" v-on="on"></v-img>
                 </template>
                 <span>Tooltip</span>
